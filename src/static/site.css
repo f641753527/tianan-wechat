@@ -1,0 +1,164 @@
+
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+
+/* 文字超出隐藏 */
+.textOver{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.color_51 {
+  color: rgb(51, 51, 51);
+}
+
+.color_102 {
+  color: rgb(102, 102, 102);
+}
+
+.color_153 {
+  color: rgb(153, 153, 153);
+}
+
+.color_245 {
+  color: rgb(245, 245, 245);
+}
+
+.mainColor {
+  color: rgb(217, 38, 44);
+}
+.tab .van-tabs--line .van-tabs__wrap {
+  height: 199px;
+}
+
+.job_types .van-tabs__wrap .van-tabs__nav{
+  border: none;
+  background: rgb(245, 245, 245);
+}
+.job_types .van-tabs__wrap .van-tabs__nav .van-tab{
+  border: none;
+  background: transparent;
+}
+.job_types .van-tabs__wrap .van-tabs__nav .van-tab--active{
+  background: rgb(208, 2, 27);
+  border-radius: .4rem;
+}
+.job_types .van-tabs__wrap .van-tabs__nav .van-tab .van-ellipsis{
+  font-size: .32rem;
+  color: rgb(102, 102, 102);
+}
+.job_types .van-tabs__wrap .van-tabs__nav .van-tab--active .van-ellipsis{
+  color: #fff;
+}
+
+/* 重置toast */
+.van-toast-wrapper .van-toast{
+  width: 40%;
+}
+.van-toast-wrapper .van-toast .van-toast__text{
+  text-align: center;
+}
+
+/* 外卖样式重置 */
+.eleme .van-tabs__wrap .van-tabs__nav{
+  background: rgb(245, 245, 245);
+}
+.eleme .van-tabs__wrap .van-tabs__nav .van-tab{
+  background: transparent;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  font-size: .453333rem;
+}
+
+/* 提交订单页样式重置 */
+.methods_list .van-cell-group .van-cell .van-cell__value .van-radio{
+  position: relative;
+}
+.methods_list .van-cell-group .van-cell .van-cell__value .van-radio .van-radio__input{
+  position: absolute;
+  right: 0;
+  top: .053333rem;
+}
+.methods_list .van-cell-group .van-cell .van-cell__value .van-radio .van-radio__input .van-icon{
+  color: rgb(217, 38, 44);
+}
+.methods_list .van-cell-group .van-cell .van-cell__value .van-radio .van-radio__label i{
+  margin-right: .08rem;
+  display: inline-block;
+  vertical-align: middle;
+  color: rgb(53, 156, 59);
+}
+.methods_list .van-cell-group .van-cell .van-cell__value .van-radio .van-radio__label span{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* 密码框 */
+.my_password .van-password-input__security{
+  height: 1.333333rem;
+}
+
+
+/* nav list */
+.navList .van-tabs__wrap {
+  height: 50px;
+}
+.navList .van-tabs__wrap .van-tabs__nav{
+  border: none;
+  height: 50px;
+  background: rgb(245, 245, 245);
+}
+.navList .van-tabs__wrap .van-tabs__nav .van-tab{
+  border: none;
+  background: transparent;
+}
+.navList .van-tabs__wrap .van-tabs__nav .van-tab--active{
+  background: rgb(208, 2, 27);
+  border-radius: .4rem;
+}
+.navList .van-tabs__wrap .van-tabs__nav .van-tab .van-ellipsis{
+  font-size: .32rem;
+  height: 50px;
+   color: rgb(102, 102, 102);
+}
+.navList .van-tabs__wrap .van-tabs__nav .van-tab--active .van-ellipsis{
+  color: #fff;
+}
+
+
+/* 会议室提交 */
+.reservationTime .mint-checklist-title {
+  margin: 0;
+}
+.mint-checklist .mint-cell-wrapper .mint-checklist-label .mint-checkbox-label{
+  white-space: pre;
+}
+.reservationDate .mint-cell-wrapper{
+  border-bottom: 1px solid rgb(245, 245, 245);
+}
+
+/* mint ui 红色按钮的颜色 */
+.mint-button--danger{
+  background-color: #d9262c;
+}
+
+
+/* 根据视口定位底下的按钮 */
+.positionfixDowm{
+  position: fixed;
+  bottom: 0;
+}
+.m_b{
+  margin-bottom: 1.32rem;
+}
